@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Is it a prime number?</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="banner">
+      <h1 id="heading">Is it a prime number?</h1>
+      <img id="hero-img" src="" alt="Is it a leap year?" />
+      <a id="main-link" href="https://prime-numberr.netlify.app/#main-app"
+        >Let's Check!</a
+      >
+    </div>
+    <div id="main-app">
+      <form class="form-style">
+        <label for="number" class="label-style"> Enter a number: </label>
+        <input type="number" name="Number" id="number" class="input-style" />
+        <button id="check" class="check-style">Check</button>
+      </form>
+      <img
+        id="loading-img"
+        src="assets/loading.gif"
+        alt="loading..."
+        style="display: none"
+        class="img"
+      />
+      <div id="final-result">
+        <p id="result" class="result-style"></p>
+        <img id="final-img" class="img">
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

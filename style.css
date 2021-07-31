@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #233D4D;
+    --secondary-color: #FE7F2D;
+    --tertiary-color: #FCCA46;
+    --quaternary-color: #A1C181;
+    --quinary-color: #619B8A;
+}
+
+body {
+    margin: 0;
+    margin-bottom: 3rem;
+    font-family: 'Ubuntu Mono', monospace;
+    background-color: var(--primary-color);
+}
+
+#banner {
+    margin: auto;
+    width: 60vw;
+    text-align: center;
+    height: 100vh;
+}
+
+#heading {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    font-size: 3rem;
+    font-weight: 700;
+    /* color: ; */
+}
+
+#hero-img {
+    max-height: 60vh;
+    max-width: 60vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vh;
+}
+
+#main-link {
+    display: block;
+    max-width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 2rem;
+    font-weight: 550;
+    cursor: pointer;
+    background-color: whitesmoke;
+    /* color: ; */
+}
+
+#main-app {
+    margin: auto;
+    width: 60vw;
+    text-align: 60vw;
+    padding: 2rem;
+    border-radius: 2rem;
+    background-color: whitesmoke;
+}
+
+.form-style {
+    display: flex;
+    flex-direction: column;
+}
+
+.label-style {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.input-style {
+    display: block;
+    margin: auto;
+    width: 55%;
+    padding: 0.3125rem 0.3125rem;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-align: start;
+    cursor: pointer;
+    font-family: inherit;
+    /* background-color: ; */
+    /* color: ; */
+}
+
+.check-style {
+    /* background-color: ; */
+    /* color: ; */
+    border: none;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    font-family: inherit;
+    font-size: 1.5rem;
+    font-weight: 600;
+    width: 40vw;
+    cursor: pointer;
+    min-width: 28%;
+    align-self: center;
+}
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    max-width: 50vw;
+}
+
+.result-style {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
