@@ -92,7 +92,7 @@ body {
     cursor: pointer;
     font-family: inherit;
     /* background-color: ; */
-    /* color: ; */
+    color: var(--primary-color);
 }
 
 .check-style {
